@@ -1,0 +1,23 @@
+{
+  "name": "atomicpug",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/thiagomurtinho/atomicDesignPugStudies.git"
+  },
+  "author": "Thiago Murtinho",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/thiagomurtinho/atomicDesignPugStudies/issues"
+  },
+  "homepage": "https://github.com/thiagomurtinho/atomicDesignPugStudies#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-pug": "^4.0.1"
+  }
+}
