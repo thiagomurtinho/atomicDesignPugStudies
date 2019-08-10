@@ -1,0 +1,12 @@
+extends template/index_template
+include organisms/nav
+include organisms/head
+
+
+block vars
+    include atom/vars
+
+block head-index
+    +head-index('Titulo TOP', cssPath, 'style.css', 'bootstrap.css')
+block nav-bar
+    +nav-bar(navClass, 1,2,3,4,5)

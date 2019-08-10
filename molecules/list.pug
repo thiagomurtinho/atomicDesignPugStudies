@@ -1,0 +1,4 @@
+mixin list(id,nclass, ...items)
+  ul(id=id)
+    each item in items
+      li(class=nclass)= item
